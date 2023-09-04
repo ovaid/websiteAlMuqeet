@@ -1,11 +1,11 @@
 
-.image-carousel-section{
+/* .image-carousel-section{
     background-color: #f0f0f0;
     padding-top: 40px;
     /* overflow: hidden; */
     /* position: relative; */
-}
-.carousel-images{
+/* } */
+/* .carousel-images{
     display: flex;
     overflow: scroll;
 }
@@ -16,10 +16,27 @@
     flex: 0 0 auto;
     margin-right: 10px;
     transition: transform 0.5s ease-in-out;
-}
-.carousel-control-prev , .carousal-control-next{
+} */
+/* .carousel-control-prev , .carousal-control-next{
     display: none;
 }
 .show-arrows .carousal-control-prev, .show-arrows .carousal-control-next{
     display: block;
-}
+} */
+html, body{
+    background: #102131;
+  }
+  .slider{
+    width:400px;
+    margin:20px auto;
+    text-align: center;
+    padding:20px;
+    color:white;
+    .parent-slide{padding:15px;}
+    img{display: block;margin:auto;}
+  }
+  .slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
