@@ -1,0 +1,25 @@
+
+.image-carousel-section{
+    background-color: #f0f0f0;
+    padding-top: 40px;
+    /* overflow: hidden; */
+    /* position: relative; */
+}
+.carousel-images{
+    display: flex;
+    overflow: scroll;
+}
+.carousel-images .b{
+    position: sticky;
+}
+.carousel-iamge{
+    flex: 0 0 auto;
+    margin-right: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+.carousel-control-prev , .carousal-control-next{
+    display: none;
+}
+.show-arrows .carousal-control-prev, .show-arrows .carousal-control-next{
+    display: block;
+}
