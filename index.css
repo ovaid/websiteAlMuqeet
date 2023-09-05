@@ -1,4 +1,7 @@
-
+*{
+    padding: 0;
+    margin: 0;
+}
 
 .blue-gradient-section{
     background-color: linear-gradient(to button, #0c61bc,#0056b3);

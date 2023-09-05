@@ -5,28 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./movingHeadingSection.css">
+   
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.min.js" integrity="sha512-fHY2UiQlipUq0dEabSM4s+phmn+bcxSYzXP4vAXItBvBHU7zAM/mkhCZjtBEIJexhOMzZbgFlPLuErlJF2b+0g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    
+    <link <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@900&display=swap" rel="stylesheet">
    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-   
-   <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-// Add the new slick-theme.css if you want the default styling
-   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+   <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/> -->
+   <link rel="stylesheet" href="./carousal.js">
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <!-- <script type="text/javascript" src="slick/slick.min.js"></script> -->
+    <link rel="stylesheet" href="./movingHeadingSection.css">
     <title>Document</title>
 
-    <style>
+    <!-- <style>
       
       .carousel .carousel-inner{
         display: flex !important;
         flex-direction: row;
       }
-    </style>
+    </style> -->
 </head>
 <body style="padding: 0; margin: 0;">
     <div class="container-fluid">
@@ -47,50 +51,132 @@
             </div>
         </section>
            <!-- part second  -->
-        <!-- <section class="image-carousel-section"> -->
-          <div class="slider">
-            <div class="slide">
-              <img src="./images/IMAGE3.png" alt="" class="img-responsive" />
+           <div class="container" >
+            <div class="row">
+              <div class="slider">
+                
+                <div class="slide">
+                  <img src="./images/IMAGE4.png" alt="" class="img-responsive" />
+                  
+                </div>
+                <div class="slide">
+                  <img src="./images/IMAGE5.png" alt="" class="img-responsive" />
+                  
+                </div>
+                <div class="slide">
+                  <img src="./images/IMAGE6.png" alt="" class="img-responsive" />
+                 
+                </div>
+                <div class="slide">
+                  <img src="./images/IMAGE7.png" alt="" class="img-responsive" />
+                  
+                </div>
+              </div>
+              <div class="carousel-button left" onclick="moveSlider('left')">&lt;</div>
+              <div class="carousel-button right" onclick="moveSlider('right')">&gt;</div>
             </div>
-            <div class="slide">
-              <img src="./images/IMAGE4.png" alt="" class="img-responsive" />
-             
-            </div>
-            <div class="slide">
-              <img src="./images/IMAGE5.png" alt="" class="img-responsive" />
-            
-            </div>
-            <div class="slide">
-              <img src="./images/IMAGE6.png" alt="" class="img-responsive" />
-       
-            </div>
-            <div class="slide">
-              <img src="./images/IMAGE7.png" alt="" class="img-responsive" />
-          
-            </div>
-          </div>
-        <!-- </section> -->
+           </div>
 
+           <div class="container-fluid" style="margin-top: 160px; background-color: #016ECC0F;">
+            <div class="row">
+              <h2 style="color: rgb(24, 156, 213); font-size: 18px; text-align: center;margin-top: 30px;"><b>WHO WE ARE</b></h2>
+            </div>
+            <div class="row">
+              <h3  class="h-tag" style="color: rgb(28, 29, 29); font-size: 40px; text-align: center;margin-top: 20px;">Your online marketing partner</h3>
+            </div>
+            <div class="row" style="font-family: Lato;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.65;
+            color: #333333;">
+              <h5 class="ptag" style="color: rgb(81, 81, 81);font-family: Lato; font-size:25px ;text-align: center;font-size: 19px;
+              line-height: 1.5em; margin-left: auto; margin-right: auto; display: inline; width: 45%; margin-top: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae convallis ligula. Proin dapibus ex et odio congue mollis. Cras finibus porta ligula non ultrices. </h5>
+            </div>
+            <div class="row" id="cards">
+              <div class="card" style="width: 18rem;">
+                <img src="./images/git.svg" class="card-img-top" alt="card1">
+                <div class="card-body">
+                  <h2><b>Social Media Strategy</b></h2>                  <p class="card-text">Dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. </p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./images/alexa.svg" class="card-img-top" alt="card2">
+                <div class="card-body">
+                  <h2><b>Social Media Strategy</b></h2>                  <p class="card-text">Dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. </p>                
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./images/magnet-fill.svg" class="card-img-top" alt="card3">
+                <div class="card-body">
+                  <h2><b>Social Media Strategy</b></h2>
+                  <p class="card-text">Dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. </p>                
+                </div>
+              </div>
+            </div>
+           </div>
+
+           <!-- section three  -->
+
+           
+            <!-- <div id="sectionThree" class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img  src="https://daftarbola.online/wp-content/uploads/2020/05/SEO-3.svg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+<!-- 
+            <div class="container"> -->
+              <div class="row" id="thirdSec">
+                <div class="imageCard">
+                  <img style="width: 30%;" src="https://daftarbola.online/wp-content/uploads/2020/05/SEO-3.svg" alt="">
+                </div>
+                <div class="headingCard"  >
+                  <h5>HOW WE'RE DIFFERENT</h5>
+                  <h4>We offer a genuine, unique approach</h4>
+                  <p>Purus biben, tincid felis sit amet, sollicit udin nisl. Mi consectetur. Morbi nec massa eget orci faucibus rutrum. Nam nunc turpis, maximus eget.</p>
+                  <p><i class="fa fa-check" aria-hidden="true"></i>Semper vel egestas</p>
+                  <p><i class="fa fa-check" aria-hidden="true"></i>
+                    Orci lacus velit augue</p>
+                  <a href="#" class="btn">LEARN MORE</a>
+                </div>
+              </div>
+            <!-- </div> -->
+          
     </div>
 
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="slick/slick.min.js"></script>
-  <script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick.min.js"></script>
+    <script>
+                const slider = document.querySelector('.slider');
+                const slides = document.querySelectorAll('.slide');
+                const slideWidth = slides[0].offsetWidth;
+                let currentIndex = 0;
+                
+                function moveSlider(direction){
+                 if(direction === 'left'){ 
+                  currentIndex = (currentIndex - 1 ) % slides.length;
 
-        $(document).ready(function(){ 
-          window.onload=function(){
-            $('.slider').slick({
-             slidesToShow: 3,
-             slidesToScroll: 1,
-             autoplay: true,
-             autoplaySpeed: 2000,
-          });
-};
-        })
-     
+                }
+                else{
+                  currentIndex = (currentIndex + 1 ) % slides.length;
+                }
+                slider.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+              }
 
-
+              setInterval(()=> moveSlider('right'), 4000)
+         
+      
     </script>
+  
+    
 </body>
 </html>
