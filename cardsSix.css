@@ -1,0 +1,122 @@
+#sixthSec{
+  margin-top: 0;
+  padding: 0;
+  background-color: rgba(1, 110, 204, 0.06);
+ 
+}
+.container-fluid .upperSec{
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin-top: 40px !important;
+    padding-top: 70px;
+    padding-bottom: 50px;
+
+}
+.upperSec h5{
+    font-weight:600;
+    margin: 0;
+    color:#007bff;
+    max-width: auto;
+    font-size: 17px;
+   
+}
+.upperSec h4{
+  font-size: 40px;
+  /* font-size: 50px; */
+  font-weight: 510;
+  line-height: 1em;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  color: hsla(180, 1%, 24%, 0.903);
+
+}
+.upperSec p{
+    width: 100%;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 3fr));
+  /* grid-template-columns: 3fr 3fr 3fr;  */
+  grid-gap: 40px;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+ 
+}
+
+.grid .article {
+  border: 1px solid #ccc;
+  /* box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3); */
+  background-color: white;
+  box-shadow: none;
+  border: none;
+  border-radius: 10px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s;
+  
+}
+
+.grid .article img {
+  max-width: 80px;
+  height: auto;
+  margin: 50px ;
+  text-align: left;
+
+  
+}
+
+.grid .article .text {
+  padding: 20px;
+  max-width: 100%;
+  margin-left: 20px;
+  text-align: left;
+  /* vertical-align: bottom; */
+  /* margin-bottom: 10px; */
+}
+@media screen and (max-width:576px) {
+  
+  .grid{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: auto;
+    max-height: auto;
+
+  }
+  .grid .text{
+    height: auto;
+    max-width: 100%;
+    font-size: 19px;
+    font-weight: 400px;
+    padding: 0;
+    margin-top: -70px;
+    margin-bottom: -20px;
+
+  }
+  .grid img{
+    width: 100px;
+    height: 150px;
+    padding: 0;
+    margin-top: -40px;
+    margin-bottom: 50px;
+   
+
+  }
+}
+
+.article:hover{
+
+  background-color: #ffffff;
+  transform: scale(1.03);
+  opacity: 1;
+  /* height:350px ; */
+  box-shadow: 0px 2px 4px 0 rgba(0,0,0,0.2);
+}

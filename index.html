@@ -10,7 +10,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.min.js" integrity="sha512-fHY2UiQlipUq0dEabSM4s+phmn+bcxSYzXP4vAXItBvBHU7zAM/mkhCZjtBEIJexhOMzZbgFlPLuErlJF2b+0g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@900&display=swap" rel="stylesheet">
+    <link  href="https://fonts.googleapis.com/css2?family=Passion+One:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./cardsSix.css">
+    <link rel="stylesheet" href="./increasingNum.css">
+    <link rel="stylesheet" href="./bottomCards.css">
+    <link rel="stylesheet" href="./bottonImages.css">
+    <link rel="stylesheet" href="./navbar.css">
    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
@@ -33,8 +38,47 @@
     </style> -->
 </head>
 <body style="padding: 0; margin: 0;">
-    <div class="container-fluid">
+
+
+   <!-- ==============navbar starts=====================  -->
+   
+  
+    <nav class="nav d-flex flex-row justify-content-center" style="height: 100px; ">
+      <input type="checkbox" id="nav-check"">
+      <div class="nav-header">
+        <div class="nav-title">
+         <img src="https://daftarbola.online/storage/2023/08/Almuqeet-logo.svg" alt="logo">
+        </div>
+      </div>
+      <div class="nav-btn" >
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+          
+        </label>
+      </div>
+      
+      <ul class="nav-list" style="margin-top: 30px; margin-bottom: 30px;">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Pages</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About</a></li>
+        <li><a  class="purchase" href="#">Purchase</a></li>
+      </ul>
+    </nav>
+
+      
+  <!-- </div> -->
+    
+
+      <!-- ==============navbar ends=====================  -->
+
+
+      
         <!-- HEADER  -->
+    <div class="container-fluid"  style="height: 50px;"></div>
         <section class="blue-gradient-section">
             <div class="container">
                 <div class="row">
@@ -50,7 +94,12 @@
                 </div>
             </div>
         </section>
+
+
            <!-- part second  -->
+
+
+
            <div class="container" >
             <div class="row">
               <div class="slider">
@@ -82,73 +131,242 @@
               <h2 style="color: rgb(24, 156, 213); font-size: 18px; text-align: center;margin-top: 30px;"><b>WHO WE ARE</b></h2>
             </div>
             <div class="row">
-              <h3  class="h-tag" style="color: rgb(28, 29, 29); font-size: 40px; text-align: center;margin-top: 20px;">Your online marketing partner</h3>
+              <h3  class="h-tag" style=" color: hsla(180, 1%, 24%, 0.903);font-weight: 600; font-size: 49px; text-align: center;margin-top: 20px;">Your online marketing partner</h3>
             </div>
-            <div class="row" style="font-family: Lato;
+            <div class="row" style=" color: hsla(180, 1%, 24%, 0.903);
             font-size: 16px;
             font-weight: 400;
             line-height: 1.65;
             color: #333333;">
-              <h5 class="ptag" style="color: rgb(81, 81, 81);font-family: Lato; font-size:25px ;text-align: center;font-size: 19px;
+              <h5 class="ptag" style="color: hsla(180, 1%, 24%, 0.903);font-size:25px ;text-align: center;font-size: 19px;
               line-height: 1.5em; margin-left: auto; margin-right: auto; display: inline; width: 45%; margin-top: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae convallis ligula. Proin dapibus ex et odio congue mollis. Cras finibus porta ligula non ultrices. </h5>
             </div>
             <div class="row" id="cards">
               <div class="card" style="width: 18rem;">
                 <img src="./images/git.svg" class="card-img-top" alt="card1">
                 <div class="card-body">
-                  <h2><b>Social Media Strategy</b></h2>                  <p class="card-text">Dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. </p>
+                  <h2 class="sectwo"><b>Social Media Strategy</b></h2>
+                  <p class="card-text" style="color: hsla(180, 1%, 24%, 0.903)">Dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. </p>
                 </div>
               </div>
               <div class="card" style="width: 18rem;">
                 <img src="./images/alexa.svg" class="card-img-top" alt="card2">
                 <div class="card-body">
-                  <h2><b>Social Media Strategy</b></h2>                  <p class="card-text">Dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. </p>                
+                  <h2><b>Social Media Strategy</b></h2>
+                  <p class="card-text" style="color: hsla(180, 1%, 24%, 0.903)">Dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. </p>                
                 </div>
               </div>
               <div class="card" style="width: 18rem;">
                 <img src="./images/magnet-fill.svg" class="card-img-top" alt="card3">
                 <div class="card-body">
                   <h2><b>Social Media Strategy</b></h2>
-                  <p class="card-text">Dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. </p>                
+                  <p class="card-text" style="color: hsla(180, 1%, 24%, 0.903)">Dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. </p>                
                 </div>
               </div>
             </div>
            </div>
 
-           <!-- section three  -->
+           <!-- section three -----------------------------------------------------------------  -->
 
-           
-            <!-- <div id="sectionThree" class="card mb-3">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img  src="https://daftarbola.online/wp-content/uploads/2020/05/SEO-3.svg" class="img-fluid rounded-start" alt="...">
+
+            <div class="container"> 
+              <div class="row" id="thirdSec">
+                
+                  <div class="imageCard col-6">
+                    <img src="https://daftarbola.online/wp-content/uploads/2020/05/SEO-3.svg" alt="">
+                  </div>
+                  <div class="headingCard col-5"  >
+                    <h5 >HOW WE'RE DIFFERENT</h5>
+                    <h4 >We offer a genuine, unique approach</h4>
+                    <p>Purus biben, tincid felis sit amet, sollicit udin nisl. Mi consectetur. Morbi nec massa eget orci faucibus rutrum. Nam nunc turpis, maximus eget.</p>
+                    <p style="display: inline; padding-right: 10px;"><i style="color: #0056b3; margin-right: 5px;" class="fa fa-check" aria-hidden="true"></i>Semper vel egestas</p>
+                    <p style="display: inline;"><i style="color: #0056b3; margin-right: 5px;" class="fa fa-check" aria-hidden="true"></i>
+                      Orci lacus velit augue</p>
+                    <h3><a href="#" class="btn">LEARN MORE</a></h3>
+                  </div>
+                
+              </div>
+            </div>
+
+            <!-- -------------------section 4-----------------------------------------------  -->
+            <div class="container"> 
+              <div class="row" id="fourthSec">
+                
+                <div class="headingCard1 col-5" >
+                    <h5 >Our promise</h5>
+                    <h4 >Your online success is our singular goal</h4>
+                    <p>Nullam lacinia suscipit metus, ut condimentum metus tincidunt et. Proin dictum diam sed consectetur interdum. Donec lobortis turpis ut quam congue magna dui, et convallis orci tincid.</p>
+                    <p style="display: inline; padding-right: 10px;"><i style="color: #0056b3; margin-right: 5px;" class="fa fa-check" aria-hidden="true"></i>Semper vel egestas</p>
+                    <p style="display: inline;"><i style="color: #0056b3; margin-right: 5px;" class="fa fa-check" aria-hidden="true"></i>
+                      Orci lacus velit augue</p>
+                    <h3><a href="#" class="btn">LEARN MORE</a></h3>
                 </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                <div class="imageCard1 col-6">
+                  <img decoding="async" width="640" height="580" src="https://daftarbola.online/wp-content/uploads/2020/05/SEO-2.svg" class="attachment-full size-full wp-image-23" alt="">
+                </div>
+              </div>
+            </div>
+
+            <!-- -------------------------section 5--------------- 6 cards and some headings -------------------  -->
+
+
+            <div class="container-fluid" id="sixthSec">
+              <div class="upperSec">
+                <h5>GROWTH METHODS</h5>
+                <h4>How we deliver results</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae convallis ligula. Proin <br> dapibus ex et odio congue mollis. Cras finibus porta ligula non ultrices. </p>
+              </div>
+              <div class="container">
+                <main class="grid">
+                  <div class="article">
+                    <img src="./images2/atandt.png" alt="Sample photo">
+                    <div class="text">
+                      <h3>Seamlessly visualize quality</h3>
+                      <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
+                    </div>
+                  </div>
+                  <div class="article">
+                    <img src="./images2/atom(3).png" alt="Sample photo">
+                    <div class="text">
+                      <h3>Completely Synergize</h3>
+                      <p>Dramatically engage seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing.</p>
+                      
+                    </div>
+                  </div>
+                  <div class="article">
+                    <img src="./images2/gitlab.png" alt="Sample photo">
+                    <div class="text">
+                      <h3>Dynamically Procrastinate</h3>
+                      <p>Completely synergize resource taxing relationships via premier niche markets.</p>
+                      
+                    </div>
+                  </div>
+                  <div class="article">
+                    <img src="./images2/java(2).png" alt="Sample photo">
+                    <div class="text">
+                      <h3>Best in class</h3>
+                      <p>Imagine jumping into that boat, and just letting it sail wherever the wind takes you...</p>
+                      
+                    </div>
+                  </div>
+                  <div class="article">
+                    <img src="./images2/mysql.png" alt="Sample photo">
+                    <div class="text">
+                      <h3>Dynamically innovate supply chains</h3>
+                      <p>Holisticly predominate extensible testing procedures for reliable supply chains.</p>
+                      
+                    </div>
+                  </div>
+                  <div class="article">
+                    <img src="./images2/slack.png" alt="Sample photo">
+                    <div class="text">
+                      <h3>Sanity check</h3>
+                      <p>Objectively innovate empowered manufactured products whereas parallel platforms.</p>
+                      
+                    </div>
+                  </div>
+                </main>
+              </div>
+            </div>
+
+            <!-- =====================section 6 ========================= -->
+
+            <div class="container">
+              <div class="row  ">
+
+                <section class="number-section d-flex flex-md-row flex-lg-row g-md-6 g-lg-10 ">
+                  <div class="number  col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 g-5 p-md-30 px-lg-5 px-xl-5 px-sm-2 px-xs-1">
+                    <h1 id="num1" ></h1>
+                    <p class="p">Years in Business</p>
+                  </div>
+                  <div class="number col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 g-5 px-md-3 px-lg-5 px-xl-5 px-xl-5 px-sm-2 px-xs-1">
+                    <h1 id="num2"></h1>
+                    <p>Happy Clients</p>
+                  </div>
+                  <div class="number col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 g-5 px-md-3 px-lg-5 px-xl-5 px-sm-2 px-xs-1">
+                    <h1 id="num3"></h1>
+                    <p>Projects Completed</p>
+                  </div>
+                  <div class="number col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 g-5 p-md-3 px-lg-5 px-xl-5 px-sm-2 px-xs-1">
+                    <h1 id="num4"></h1>
+                    <p>Awards Won</p>
+                  </div>
+                </section>
+
+              </div>
+            </div>
+
+            <!-- =====================section seven ==============================  -->
+
+                <div class="container-fluid" style="margin-top:30px; background-color: rgba(1, 110, 204, 0.06); text-align: center !important;">
+                  <div class="container" style="text-align: center;">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="title-heading">
+                          <h1 >TESTIMONIALS</h1>
+                          <h2>What clients are saying </h2>
+                          <h3>Quisque ut eros eget odio accumsan mattis nec ac neque. Integer ornare velit a <br> dante scelerisque, ac porttitor ornare lorem purus auctor.</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row" id="threeCards">
+                      <div class = "col-lg-6  col-md-12 col-xl-4 col-xs-12" style="text-align: center !important;">
+                        <div class="card">
+                          <div class="card-body">
+                            <p class="card-text ">“We had worked with other SEO companies, but it was clear from the outset that Stratus is different. The results speak for themselves.” </p>
+                            <div class="card-image" style="color: #213661;">
+                              <img src="https://daftarbola.online/wp-content/uploads/2019/03/testimonial-4.jpg" alt="1">
+                              <h2>Jake Warren</h2>
+                             <p>GM Studios</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                       <div class = "col-lg-6  col-md-12 col-xl-4 col-xs-12">
+                        <div class="card">
+                          <div class="card-body">
+                            <p class="card-text">“We had worked with other SEO companies, but it was clear from the outset that Stratus is different. The results speak for themselves.” </p>
+                            <div class="card-image" style="color: #5e371b;">
+                             <img src="https://daftarbola.online/wp-content/uploads/2019/03/testimonial-1.jpg" alt="2">
+                             <h2>Kim Smith</h2>
+                             <p>Squant Media</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class = "col-lg-6  col-md-12 col-xl-4 col-xs-12">
+                        <div class="card">
+                          <div class="card-body">
+                            <p class="card-text">“We had worked with other SEO companies, but it was clear from the outset that Stratus is different. The results speak for themselves.” </p>
+                            <div class="card-image" style="color: #5e371b;">
+                              <img src="https://avatars.githubusercontent.com/u/84043654?s=400&u=a6370d6f1d5b7731d300828e950db8dc66d0414e&v=4" alt="3">
+                              <h2>Ovaid Mushtaq</h2>
+                              <p>Software Dev.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div> -->
-<!-- 
-            <div class="container"> -->
-              <div class="row" id="thirdSec">
-                <div class="imageCard">
-                  <img style="width: 30%;" src="https://daftarbola.online/wp-content/uploads/2020/05/SEO-3.svg" alt="">
+
+
+                <!-- ===========================section 8============================  -->
+
+                <div class="container">
+                  <div class="d-flex justify-content-between flex-wrap">
+                    <div class="p-2 flex-fill col-xs-12">
+                      <img class="img-fluid" src="https://daftarbola.online/storage/2020/05/Google-partner.jpg" alt="1">
+                    </div>
+                    <div class="p-2 flex-fill col-xs-12">
+                      <img class="img-fluid" src="https://daftarbola.online/storage/2020/05/Trust-pilot.png" alt="2">
+                    </div>
+                    <div class="p-2 flex-fill col-xs-12">
+                      <img class="img-fluid" src="https://daftarbola.online/storage/2020/05/Google-reviews.jpg" alt="3">
+                    </div>
+                  </div>
                 </div>
-                <div class="headingCard"  >
-                  <h5>HOW WE'RE DIFFERENT</h5>
-                  <h4>We offer a genuine, unique approach</h4>
-                  <p>Purus biben, tincid felis sit amet, sollicit udin nisl. Mi consectetur. Morbi nec massa eget orci faucibus rutrum. Nam nunc turpis, maximus eget.</p>
-                  <p><i class="fa fa-check" aria-hidden="true"></i>Semper vel egestas</p>
-                  <p><i class="fa fa-check" aria-hidden="true"></i>
-                    Orci lacus velit augue</p>
-                  <a href="#" class="btn">LEARN MORE</a>
-                </div>
-              </div>
-            <!-- </div> -->
+            
           
     </div>
 
@@ -172,8 +390,104 @@
                 slider.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
               }
 
-              setInterval(()=> moveSlider('right'), 4000)
-         
+              setInterval(()=> moveSlider('right'), 4000);
+
+// =================================increasing tht nmbers=====================  
+
+    window.onload = function(){
+
+            var tarNum1 = 12;
+            var currentNum1 = 0;
+            
+            function func1(){
+                if(currentNum1 < tarNum1){
+                  currentNum1 += 1;
+                 let headTag1 = document.getElementById("num1");
+                 headTag1.textContent = currentNum1;
+                  setTimeout(func1 , 120);
+                }
+                
+              }
+            func1();
+            
+
+            var tarNum2 = 98;
+            var currentNum2 = 0;
+            function func2(){
+                if(currentNum2 < tarNum2){
+                  currentNum2 += 1;
+                 let headTag2 = document.getElementById("num2");
+                 headTag2.textContent = currentNum2;
+                  setTimeout(func2 , 15);
+                }
+                
+              }
+            func2();
+
+            var tarNum3 = 146;
+            var currentNum3 = 0;
+            function func3(){
+                if(currentNum3 < tarNum3){
+                  currentNum3 += 1;
+                 let headTag3 = document.getElementById("num3");
+                 headTag3.textContent = currentNum3;
+                  setTimeout(func3 , 1);
+                }
+                
+              }
+            func3();
+
+            var tarNum4 = 9;
+            var currentNum4 = 0;
+            function func4(){
+                if(currentNum4 < tarNum4){
+                  currentNum4 += 1;
+                 let headTag4 = document.getElementById("num4");
+                 headTag4.textContent = currentNum4;
+                  setTimeout(func4 , 220);
+                }
+                
+              }
+            func4();
+
+        }
+
+// const navList = document.querySelector('.navList')
+// const navBtn = document.querySelector('.navBtn')
+// const navLinks = document.querySelectorAll('.navLi')
+
+
+// navBtn.addEventListener('click', () => {
+//   navBtn.classList.toggle('navBtnToggle')
+//   navList.classList.toggle('navActive')
+//   navLinks.forEach((item, index) => {
+//     const delay = index / 10 + 0.05
+//     if (item.style.animation)
+//       item.style.animation = ''
+//     else
+//       item.style.animation = `SlideIn 0.5s forwards ${delay}s`
+//   })
+// })
+
+
+const container = document.querySelector(".container");
+const primaryNav = document.querySelector(".nav__list");
+const toggleButton = document.querySelector(".nav-toggle");
+
+toggleButton.addEventListener("click", () => {
+    const isExpanded = primaryNav.getAttribute("aria-expanded");
+    primaryNav.setAttribute(
+        "aria-expanded",
+        isExpanded === "false" ? "true" : "false"
+    );
+});
+
+container.addEventListener("click", (e) => {
+    if (!primaryNav.contains(e.target) && !toggleButton.contains(e.target)) {
+        primaryNav.setAttribute("aria-expanded", "false");
+    }
+});
+
       
     </script>
   

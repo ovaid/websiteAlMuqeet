@@ -74,63 +74,320 @@
 .card-body p{
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+
 }
+
+/* @media screens and (max-width:300px){
+  .row .card .card-body .sectwo{
+    font-size: 20px;
+  }
+} */
 
 /* section 3  */
-
-.card .row{
-  display: flex;
-  flex-direction: row;
-
-}
 
 
 #thirdSec{
   display: flex !important;
-  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 40px;
+  background-color: linear-gradient(to button, #0c61bc,#0056b3);
+  /* --widgets-spacing: 20px; */
+  
 
 }
-/* .row.imageCard img{
-  width: 20% !important;
-  height: 20%;
-} */
-.imageCard{
-  flex: 1;
-  padding: 20px;
+.imageCard,.headingCard{
+  /* flex: 1.7; */
+  padding: 5px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  display: inline-block;
+  /* align-items: center; */
   text-align: center;
+  /* --widgets-spacing: 40px; */
+  
 }
+      
 .imageCard img{
+  height: 480px;
+  max-width:79% !important;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  /* float: right; */
+  vertical-align: middle;
+  display: inline-block;
+  /* margin-left: 3000px; */
+  margin-right: 20px;
+  margin-top: -20px;
+  /* width: auto; */
+
+} 
+.headingCard{
+ 
+  /* flex-direction: initial;
+  flex-wrap: initial;
+  justify-content: initial;
+  align-items: initial;
+  align-content: initial;
+  gap: initial;
+  flex-basis: initial;
+  flex-grow: initial;
+  flex-shrink: initial;
+  order: initial; */
+  align-self: initial;
+  margin-top: 30px;
+  height: auto;
+  text-align: left;
   max-width: 100%;
 }
-.headingCard{
-  flex: 2;
-  padding: 20px;
-  background-color: #f2f2f2;
-}
+
 
 .headingCard h5{
-  font-size: 1.2rem;
-  margin-top: 10px;
+  font-weight:600;
+  margin: 0;
+  color:#007bff;
+  max-width: 50%;
+  font-size: 17px;
+  /* width: 110px; */
 }
 
-.headingCard h5{
-  font-size: 1.5rem;
-  margin-top: 10px;
+.headingCard h4{
+  font-size: 40px;
+  /* font-size: 50px; */
+  font-weight: 510;
+  line-height: 1em;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  color: hsla(180, 1%, 24%, 0.903);
+  
 }
 .headingCard p{
-  font-size: 1rem;
+  font-size: 17px;
   margin-top: 10px;
+  max-width: 90%;
+  /* font-weight: 600; */
 }
-.headomgcard .btn{
-  display: inline-block;
+.btn{
+  background-color: #007bff;
+  
+  color: #ffffff;
+  border-radius: 8px;
   padding: 10px 20px;
   text-decoration: none;
-  border-radius: 5px;
-  margin-top: 15px;
-  transition: background-color 0.3s ease;
+  /* transition: background-color 0.3s, color 0.3s; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-weight: 600;
+  /* font-size: 20px; */
 }
-.headingCard .btn:hover{
-  background-color: #0056b3;
+.headingCard a.btn:hover{
+ 
+  background-color:  #fff;
+  color:#0056b3;
+  border: 1px solid #0056b3;
+  font-size: 17px;
+  
+}
+@media screen and (max-width:768px){
+  #thirdSec{
+    flex-direction: column !important;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    
+  }
+  .imageCard,
+  .headingCard {
+    flex-direction: none;
+    width: 100%;
+    margin: 0;
+    height: auto;
+  }
+}
+
+@media screen and (max-width:576pxpx) {
+  .imageCard img{
+    max-height: 400px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+  .headingCard h4{
+    font-size: 1.2rem;
+    text-align: center;
+    width: 100%;
+    height: auto;
+   
+  }
+}
+
+/* -----section 4  fulllength card 2nd-----  */
+
+
+#fourthSec{
+    display: flex !important;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px !important;
+    background-color: linear-gradient(to button, #0c61bc,#0056b3);
+  /* --widgets-spacing: 20px; */
+  
+
+}
+.imageCard1,.headingCard1{
+  /* flex: 1.7; */
+  padding: 5px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  display: inline-block;
+  /* align-items: center; */
+  text-align: center;
+  margin-top:10px ;
+  /* --widgets-spacing: 40px; */
+  
+}
+      
+.imageCard1 img{
+  height: 480px;;
+  max-width:79% !important;
+  border: none;
+  border-radius: 0;
+  
+  
+  box-shadow: none;
+  /* float: right; */
+  /* vertical-align: middle; */
+  display: inline-block;
+  /* margin-left: 3000px; */
+  margin-top: 20px;
+  
+  vertical-align: center;
+  /* width: auto; */
+  text-align: right;
+  /* flex: 2; */
+  
+
+} 
+.headingCard1{
+ 
+ 
+
+  height: auto;
+  text-align: left;
+  /* height: 190px; */
+  text-align: left;
+  margin-left:auto ;
+  max-width: 100%;
+  
+  
+}
+
+
+.headingCard1 h5{
+  font-weight:600;
+  margin: 0;
+  color:#007bff;
+  max-width: auto;
+  /* width: 110px; */
+}
+
+.headingCard1 h4{
+  font-size: 40px;
+  /* font-size: 50px; */
+  font-weight: 510;
+  line-height: 1em;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  color: hsla(180, 1%, 24%, 0.903);
+  
+}
+.headingCard1 p{
+  font-size: 17px;
+  margin-top: 10px;
+  max-width: 100%;
+
+}
+.btn{
+  background-color: #007bff;
+  
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-decoration: none;
+  /* transition: background-color 0.3s, color 0.3s; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-weight: 600;
+  /* font-size: 20px; */
+}
+.headingCard1 a.btn:hover{
+ 
+  background-color:  #fff;
+  color:#0056b3;
+  border: 1px solid #0056b3;
+  font-size: 17px;
+  
+}
+@media screen and (max-width:768px){
+  #fourthsec{
+    display: flex;
+    flex-direction: column !important;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+  }
+  .imageCard1,
+  .headingCard1 {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    height: auto;
+    /* flex: 1; */
+  }
+  .imageCard1{
+    order: 1;
+  }
+  .headingCard1{
+    order: 2;
+  }
+}
+
+@media screen and (max-width:576pxpx) {
+  #fourthsec{
+    display: flex;
+    flex-direction: column !important;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+  }
+  .imageCard1 img{
+    max-height: 400px;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    flex: -4;
+    flex-direction: column;
+    order: 1;
+  }
+  .headingCard1 h4{
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    order: 2;
+    /* flex: 1; */
+  }
 }
