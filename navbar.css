@@ -85,9 +85,9 @@
 
 .nav-list .purchase{
   border: 2px solid rgb(37, 36, 36);
-  border-radius: 40px;
+  border-radius: 8px;
   margin-left: 35px;
-  padding: 6px;
+  padding: 8px;
   font-size: 18px;
   font-weight: 600;
 }
